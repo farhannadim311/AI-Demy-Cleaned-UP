@@ -218,8 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
         outputDiv.appendChild(resultsDiv);
     }
     function formatSummary(summaryText) {
-        // Use the version that best fits your needs (simple split or regex)
-        // Here's the regex version for better flexibility
+       
     
         // Regular expression to match key points
         const regex = /\*\s\*\*(.*?)\*\*(.*?)(?=\*\s\*\*|$)/gs;
