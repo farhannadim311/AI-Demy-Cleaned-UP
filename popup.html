@@ -1,0 +1,40 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI YouTube Assistant</title>
+    <!-- Optional: Include Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Optional: Include your own CSS styles -->
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <!-- Language selection -->
+        <div class="language-selection mb-3">
+            <label for="language-select">Select Language:</label>
+            <select id="language-select" class="form-control">
+                <option value="English" selected>English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value= "Hindi">Hindi</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="button-group mb-3">
+            <button class="summary btn btn-primary btn-block">Generate Summary</button>
+            <button class="quizify btn btn-secondary btn-block">Generate Quiz</button>
+        </div>
+
+        <!-- Output area -->
+        <div id="output" class="output-area"></div>
+    </div>
+
+    <!-- Include your popup.js script -->
+    <script src="popup.js"></script>
+</body>
+</html>
