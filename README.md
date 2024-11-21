@@ -39,4 +39,25 @@ Follow these steps to install, configure, and run the project:
    ```bash
    npm install babel-loader
    npm install @babel/preset-env
+### **Step 3: Setup your API Key**
+1. Add your API key to contentScript.js
+2. Verify that your manifest.json includes paths to contentScript.js, popup.js, and background.js (or the bundled dist/bundle.js).
+### **Step 4: Bundle the Project**
+1. ```bash
+   npm run build
+2. ```bash
+   npx webpack
+### **Step 5: Load Extension into Chrome**
+1. Open Chrome and navigate to chrome://extensions/.
+2. Enable Developer Mode in the top-right corner.
+3. Click on Load unpacked.
+4. Select the project directory
+### **Step 6: Run the Extension**
+1. Open a YouTube video.
+2. Click on the AIDemy icon in the Chrome toolbar.
+3. Use the Summary or Quizify features by clicking the respective buttons.
+4. Select a language from the dropdown if you wish to use the multilingual feature.
+
+
+
   
