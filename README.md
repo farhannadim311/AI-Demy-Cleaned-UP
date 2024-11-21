@@ -30,7 +30,7 @@ Follow these steps to install, configure, and run the project:
     npm install @google/generative-ai
 2. Install youtube-transcript-API
     ```bash
-    $ npm i youtube-transcript
+     npm i youtube-transcript
 3. Install Webpack Config
    ```bash
    npm install webpack
