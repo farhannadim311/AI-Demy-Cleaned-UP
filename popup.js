@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function formatSummary(summaryText) {
-        // Format the summary text as desired
         return `<h3>Summary:</h3><p>${summaryText}</p>`;
     }
 
