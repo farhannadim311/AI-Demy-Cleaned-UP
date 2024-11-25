@@ -55,7 +55,7 @@ Follow these steps to install, configure, and run the project:
 2. Click on the AIDemy icon in the Chrome toolbar.
 3. Use the Summary or Quizify features by clicking the respective buttons.
 4. Select a language from the dropdown if you wish to use the multilingual feature.
-### *MIT License**
+### *MIT License*
 MIT License
 
 Copyright (c) 2024 Farhan Nadim Haque
