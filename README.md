@@ -44,8 +44,6 @@ Follow these steps to install, configure, and run the project:
 2. Verify that your manifest.json includes paths to contentScript.js, popup.js, and background.js (or the bundled dist/bundle.js).
 ### **Step 4: Bundle the Project**
 1. ```bash
-   npm run build
-2. ```bash
    npx webpack
 ### **Step 5: Load Extension into Chrome**
 1. Open Chrome and navigate to chrome://extensions/.
